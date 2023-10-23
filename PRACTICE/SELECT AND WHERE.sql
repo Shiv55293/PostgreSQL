@@ -1,0 +1,15 @@
+--DIFFERENT SELECT STATEMENT
+
+SELECT * FROM Test;
+
+SELECT FirstName, LastName, Age FROM Test;
+
+SELECT * FROM Test LIMIT 3;
+
+SELECT DISTINCT Age FROM Test;
+
+--WHERE CLAUSE
+SELECT * FROM Test
+WHERE  (FIRSTNAME = 'John' AND AGE = '20') OR (ID = 2 OR Gender = 'Female');
+
+
